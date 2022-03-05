@@ -1,0 +1,62 @@
+:root{
+	--ancho: 1355px;
+
+}
+
+header{
+	 width: var(--ancho);
+    height: 100px;
+    margin: auto;
+    float: center;
+
+}
+
+nav{
+    width:var(--ancho);
+    height: 30px;
+    background-color: darkred;
+    margin:auto
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+
+.limenu {
+	color: white;
+    float: left;
+    height: 25px;
+    width: 5%;
+  }
+
+  .menuder { 
+
+    float: right;
+    height: 30px;
+    width: 4%;
+   }
+  
+.izquierda{
+	float: left;
+	width: 12%;
+    height:100%;
+}
+
+.derecha{
+	float: right;
+	width: 12%;
+    height:100%;
+}
+
+footer{
+    width: var(--ancho);
+    height: 50px;
+    margin: auto;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+
+}

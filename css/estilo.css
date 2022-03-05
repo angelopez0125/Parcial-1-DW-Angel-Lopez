@@ -1,0 +1,94 @@
+:root{
+	--ancho: 1500px;
+}
+header{
+    width: var(--ancho);
+    height: 100px;
+    margin: auto;
+
+}
+nav{
+    width:var(--ancho);
+    height: 33px;
+    background-color: darkred;
+    margin:auto
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 80px;
+    
+  }
+
+.limenu {
+	color: white;
+    float: left;
+    height: 80px;
+    width: 5%;
+  }
+
+  .menuder { 
+
+    float: right;
+    height: 30px;
+    width: 4%;
+   }
+.izquierda{
+	float: left;
+	width: 20%;
+    height:100%;
+}
+
+.derecha{
+	float: right;
+	width: 20%;
+    height:100%;
+}
+
+article{
+width: var(--ancho);
+height: 300px;
+margin: auto;
+
+}
+
+section{
+
+ width: var(--ancho);
+height: 300px;
+margin: auto;   
+}
+
+.tabla1{ 
+    float: left;
+    width: 730px;
+    height: 110px;
+}
+.tabla2{
+    float: right;
+    width: 730px;
+    height:110px;
+}
+
+
+.tabla3{ 
+    float: left;
+    width: 730px;
+    height: 110px;
+}
+.tabla4{
+    float: right;
+    width: 730px;
+    height:110px;
+}
+footer{
+    width: var(--ancho);
+    height: 50px;
+    margin: auto;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+
+}

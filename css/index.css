@@ -1,0 +1,181 @@
+:root{
+	--ancho: 1355px;
+
+}
+.contenedor{
+    width: 100%;
+    /*alto del 100% height: 100vh;*/
+    height: 40vh;
+    display: grid;
+    grid-template-rows: 100% 100% 100% 100%;
+    grid-template-areas: 
+    'uno dos tres cuatro';
+    color: white;
+}
+
+header{
+	 width: var(--ancho);
+    height: 100px;
+    margin: auto;
+
+}
+
+nav{
+    width:var(--ancho);
+    height: 30px;
+    background-color: darkred;
+    margin:auto
+}
+
+body{
+  background-color: lightgrey;
+  font-family: sans-serif;
+}
+
+.container{
+  margin: auto;
+  background-color: white;
+  width: 800px;
+  padding: 30px;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider{
+  position: relative;
+  width: 800px;
+  height: 300px;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#fff;
+}
+
+ul.slider li img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.menu{
+  text-align: center;
+  margin: 20px;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+
+
+article{
+width: var(--ancho);
+height: 150px;
+margin: auto;
+
+}
+
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+
+.limenu {
+	color: white;
+    float: left;
+    height: 25px;
+    width: 5%;
+  }
+
+  .menuder { 
+
+    float: right;
+    height: 30px;
+    width: 4%;
+   }
+  
+.izquierda{
+	float: left;
+	width: 12%;
+    height:100%;
+}
+
+.derecha{
+	float: right;
+	width: 12%;
+    height:100%;
+}
+.tabla1{
+	float: left;
+	width: 670px;
+	height: 150px;
+
+}
+.tabla2{
+	float: right;
+	width: 670px;
+	height: 150px;
+
+}
+
+.item1{
+    grid-area:uno;
+    background-color: darkkhaki;
+}
+.item2{
+    grid-area:dos;
+    background-color: gray;
+}
+.item3{
+    grid-area:tres;
+    background-color: darkred;
+}
+.item4{
+    grid-area:cuatro;
+    background-color: goldenrod;
+}
+
+footer{
+    width: var(--ancho);
+    height: 50px;
+    margin: auto;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+
+}
